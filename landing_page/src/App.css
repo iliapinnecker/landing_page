@@ -23,7 +23,7 @@ body {
     width: 100%;    
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;    
+    z-index: 2;    
 }
 
 .navbar {
@@ -31,13 +31,14 @@ body {
     justify-content: space-around;
     height: 100px;
     position: sticky;
+    overflow: hidden;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 999;
 }
 
 .navbar-img {
-    padding: 10px;
+    padding: 20px;
     height: 62px;
 }
 
@@ -69,7 +70,7 @@ body {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    z-index: 2;
+    z-index: 3;
 }
 
 .main-section-container {
